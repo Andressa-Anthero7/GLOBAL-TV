@@ -1,2 +1,1 @@
-# GLOBAL-TV
-Site jornalístico e entretenimento
+https://andressa-anthero7.github.io/noticias-cidade/
