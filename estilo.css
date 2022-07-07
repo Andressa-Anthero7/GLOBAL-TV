@@ -538,8 +538,6 @@ img{
 @media (min-width:376px) and (max-width: 425.99px) {
 
 
-
-		
 			body{
 			font-family: "Trebuchet MS", Helvetica, sans-serif;
 			
@@ -549,7 +547,7 @@ img{
 
 		#logo{
 			position:absolute;
-			left:180px;
+			left:160px;
 			top:10px;
 			width:18%;
 		}
@@ -557,21 +555,19 @@ img{
 		#escolha-cidades{
 			position: absolute;
 			left:5px;
-			top: 25px;
+			top: 20px;
 			
 			
 		}
 
 		#dropdownMenuLink{
-			font-size: 12px;
+			font-size: 13px;
 			height:50px;
 			text-align: center;
-			line-height:30px;
+			line-height:40px;
 			font-weight: 900;
-			padding:10px;
-			max-width:150px;
-
-			
+			padding:5px;
+			max-width:120px;
 		}
 
 		.dropdown-item{
@@ -583,15 +579,15 @@ img{
 
 		.dropdown-menu{
 			position: relative;
-			top: 100px;
+			top: 70px;
 		}
 
 		
 
 		#menu-hamburguer{
 			position: absolute;
-			left: 320px;
-			top:25px;
+			left: 80%;
+			top:20px;
 			padding: 0;
 			height: 50px;
 
@@ -599,9 +595,6 @@ img{
 
 		
 
-		.label-news{
-
-		}
 		
 		#label-news{
 			-webkit-animation: label-news 3s linear infinite;
@@ -611,14 +604,13 @@ img{
                animation: label-news 3s linear infinite;
 
                position: relative;
-               top:0px;
-               left:2px;
+               top:-5px;
+               left:;
 
-               font-size: 32px;
-               padding:4px;
+               font-size: 30px;
+               padding:0px;
                border-top-left-radius:10px;
                border-top-right-radius:10px;
-
 
 		}
 
@@ -630,47 +622,49 @@ img{
 
 		#carroussel-noticias{
 			background: white;
-			position: relative;
 			top:100px;
+			left: 0;
 			border: 1px solid black;
-			height: 45px;
+			height: 35px;
 			position: fixed;
-			width: 800px;
-			z-index:3;
+			width: 410px;
+			z-index:2;
 			background: black;
 		}
 
 
 		.carousel-item-rotativo{
-			transition: transform 30s linear;
-			width:1000px;
+			transition: transform 40s linear;
+			width:2000px;
 		}
 
 		#carousel-news{
 			position: relative;
-			top:-35px;
+			top:-45px;
+			left:30px;
+			width:800px;
 
 		}
 
 		#carousel-inner{
 			position: relative;
-			left:90px;
+			left:50px;
+			
 		}
 
 		#navegacao{
 			position: fixed;
 			min-width: 420px;
 			z-index:3;
-			background: white;
-			border-radius:10px;
-
+			
+			height:90px;
 
 		}
 
 
 		.navbar-nav{
 			position: relative;
-			top:120px;
+			top:80px;
 			height:300px;
 			background: white;
 			border-bottom-right-radius: 10px;
@@ -683,24 +677,22 @@ img{
 
 
 
-
-
 		#display-video{
 			position: relative;
 			left:1%;
-			top:180px;
+			top:150px;
 			min-width: 375px;
 			height:315px;
 		
 		}
 
 		#video{
-			min-width:400px;
+			min-width: 400px;
 			min-height: 315px;
 		}
 
 		#carousel{
-			min-width:410px;
+			min-width:360px;
 			position: relative;
 			top: -1px;
 			left:5px;
@@ -708,13 +700,13 @@ img{
 
 		#destaque-carroussel{
 			position: relative;
-			top:230px;
+			top:180px;
 		}
 
 		#ultimas-noticias{
 			position: relative;
-			top:150px;
-			min-width: 410px;
+			top:200px;
+			min-width: 365px;
 			left:1%;
 		}
 
@@ -729,23 +721,16 @@ img{
 		}
 
 		.sinopse{
-			padding-left:22px;
+			padding-left:20px;
 			padding-right:20px;
 			padding-bottom: 0;
-			font-size:22px;
+			font-size:12px;
 			position: relative;
 			top: 0px;
 		}
 
 		.link-noticia{
 			text-align: center;
-			font-size:18px;
-			position: relative;
-			left:25%;
-		}
-
-		.link-noticia, a{
-
 		}
 
 		.aba-card{
@@ -776,12 +761,13 @@ img{
 		.texto-rotativo{
 			white-space: nowrap;
 			padding-left: 0;
-			line-height:20px;
+			line-height:40px;
 			color: white;
 			font-size:26px;
-			width: 1600px;
+			width:1300px;
 
 		}
+
 
 
 
