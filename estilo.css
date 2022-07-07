@@ -7,6 +7,10 @@
 	padding: 0;
 }
 
+img{
+	border-radius:5%;
+}
+
 
 
 
@@ -24,6 +28,7 @@
 			position:absolute;
 			left:170px;
 			top:10px;
+			width:18%;
 		}
 
 		#escolha-cidades{
@@ -34,11 +39,12 @@
 		}
 
 		#dropdownMenuLink{
-			font-size: 12px;
-			height:40px;
+			font-size: 14px;
+			height:50px;
 			text-align: center;
-			line-height:28px;
-			font-weight: 700;
+			line-height:40px;
+			font-weight: 900;
+			padding:5px;
 		}
 
 		.dropdown-item{
@@ -57,18 +63,19 @@
 
 		#menu-hamburguer{
 			position: absolute;
-			left: 70%;
-			top:10px;
+			left: 80%;
+			top:20px;
 			padding: 0;
-			height: 40px;
+			height: 50px;
 
 		}
 
+		
 		nav{
 			position: fixed;
 			top:1%;
 			background: blue;
-			height:60px;
+			height:90px;
 		}
 
 		
@@ -80,8 +87,13 @@
                animation: label-news 3s linear infinite;
 
                position: relative;
-               top:1px;
-               left:-2px;
+               top:-5px;
+               left:;
+
+               font-size: 30px;
+               padding:0px;
+               border-top-left-radius:10px;
+               border-top-right-radius:10px;
 
 		}
 
@@ -93,31 +105,34 @@
 
 		#carroussel-noticias{
 			background: white;
-			position: relative;
-			top:70px;
+			top:100px;
+			left: 0;
 			border: 1px solid black;
-			height: 27px;
+			height: 35px;
 			position: fixed;
-			width: 375px;
+			width: 410px;
 			z-index:3;
 			background: black;
 		}
 
 
 		.carousel-item-rotativo{
-			transition: transform 30s linear;
-			width:1000px;
+			transition: transform 40s linear;
+			width:2000px;
 		}
 
 		#carousel-news{
 			position: relative;
-			top:-25px;
+			top:-45px;
+			left:30px;
+			width:800px;
 
 		}
 
 		#carousel-inner{
 			position: relative;
 			left:50px;
+			
 		}
 
 		#navegacao{
@@ -138,7 +153,7 @@
 		#display-video{
 			position: relative;
 			left:1%;
-			top:100px;
+			top:150px;
 			width: 375px;
 			height:315px;
 		
@@ -158,12 +173,12 @@
 
 		#destaque-carroussel{
 			position: relative;
-			top:120px;
+			top:180px;
 		}
 
 		#ultimas-noticias{
 			position: relative;
-			top:150px;
+			top:200px;
 			width: 365px;
 			left:1%;
 		}
@@ -219,8 +234,10 @@
 		.texto-rotativo{
 			white-space: nowrap;
 			padding-left: 0;
-			line-height:30px;
+			line-height:40px;
 			color: white;
+			font-size:26px;
+			width:1000px;
 
 		}
 
@@ -266,8 +283,9 @@
 
 		#logo{
 			position:absolute;
-			left:170px;
-			top:10px;
+			left:180px;
+			top:3px;
+			width:15%;
 		}
 
 		#escolha-cidades{
@@ -278,7 +296,7 @@
 		}
 
 		#dropdownMenuLink{
-			font-size: 12px;
+			font-size: 14px;
 			height:40px;
 			text-align: center;
 			line-height:28px;
@@ -301,7 +319,7 @@
 
 		#menu-hamburguer{
 			position: absolute;
-			left: 70%;
+			left: 80%;
 			top:10px;
 			padding: 0;
 			height: 40px;
@@ -316,7 +334,7 @@
 		}
 
 		
-		#label-news{
+	#label-news{
 			-webkit-animation: label-news 3s linear infinite;
                -moz-animation: label-news 3s linear infinite;
                -ms-animation: label-news 3s linear infinite;
@@ -324,8 +342,14 @@
                animation: label-news 3s linear infinite;
 
                position: relative;
-               top:1px;
-               left:-2px;
+               top:-5px;
+               left:;
+
+               font-size: 30px;
+               padding:0px;
+               border-top-left-radius:10px;
+               border-top-right-radius:10px;
+
 
 		}
 
@@ -340,7 +364,7 @@
 			position: relative;
 			top:70px;
 			border: 1px solid black;
-			height: 27px;
+			height:38px;
 			position: fixed;
 			width: 375px;
 			z-index:3;
@@ -355,7 +379,8 @@
 
 		#carousel-news{
 			position: relative;
-			top:-25px;
+			top:-40px;
+			left: 25px;
 
 		}
 
@@ -460,11 +485,12 @@
 		
 		}
 
-		.texto-rotativo{
+			.texto-rotativo{
 			white-space: nowrap;
 			padding-left: 0;
-			line-height:30px;
+			line-height:28px;
 			color: white;
+			font-size:24px;
 
 		}
 
@@ -506,23 +532,24 @@
 
 		#logo{
 			position:absolute;
-			left:170px;
+			left:180px;
 			top:10px;
+			width:18%;
 		}
 
 		#escolha-cidades{
 			position: relative;
-			left:-8%;
-			width:100px;
+			left:-6%;
+			
 			
 		}
 
 		#dropdownMenuLink{
-			font-size: 12px;
-			height:40px;
+			font-size: 14px;
+			height:50px;
 			text-align: center;
-			line-height:28px;
-			font-weight: 700;
+			line-height:40px;
+			font-weight: 900;
 		}
 
 		.dropdown-item{
@@ -541,10 +568,10 @@
 
 		#menu-hamburguer{
 			position: absolute;
-			left: 70%;
-			top:10px;
+			left: 320px;
+			top:25px;
 			padding: 0;
-			height: 40px;
+			height: 50px;
 
 		}
 
@@ -552,9 +579,12 @@
 			position: fixed;
 			top:1%;
 			background: blue;
-			height:60px;
+			height:100px;
 		}
 
+		.label-news{
+
+		}
 		
 		#label-news{
 			-webkit-animation: label-news 3s linear infinite;
@@ -564,8 +594,14 @@
                animation: label-news 3s linear infinite;
 
                position: relative;
-               top:1px;
-               left:-2px;
+               top:0px;
+               left:2px;
+
+               font-size: 32px;
+               padding:4px;
+               border-top-left-radius:10px;
+               border-top-right-radius:10px;
+
 
 		}
 
@@ -578,11 +614,11 @@
 		#carroussel-noticias{
 			background: white;
 			position: relative;
-			top:70px;
+			top:100px;
 			border: 1px solid black;
-			height: 27px;
+			height: 45px;
 			position: fixed;
-			width: 375px;
+			width: 800px;
 			z-index:3;
 			background: black;
 		}
@@ -595,18 +631,18 @@
 
 		#carousel-news{
 			position: relative;
-			top:-25px;
+			top:-35px;
 
 		}
 
 		#carousel-inner{
 			position: relative;
-			left:50px;
+			left:90px;
 		}
 
 		#navegacao{
 			position: fixed;
-			width: 375px;
+			width: 420px;
 			z-index:3;
 			background: white;
 			border-radius:10px;
@@ -622,19 +658,19 @@
 		#display-video{
 			position: relative;
 			left:1%;
-			top:100px;
+			top:180px;
 			width: 375px;
 			height:315px;
 		
 		}
 
 		#video{
-			width: 360px;
+			width:410px;
 			min-height: 315px;
 		}
 
 		#carousel{
-			width:360px;
+			width:410px;
 			position: relative;
 			top: -1px;
 			left:5px;
@@ -642,13 +678,13 @@
 
 		#destaque-carroussel{
 			position: relative;
-			top:120px;
+			top:160px;
 		}
 
 		#ultimas-noticias{
 			position: relative;
 			top:150px;
-			width: 365px;
+			width: 410px;
 			left:1%;
 		}
 
@@ -663,16 +699,23 @@
 		}
 
 		.sinopse{
-			padding-left:20px;
+			padding-left:22px;
 			padding-right:20px;
 			padding-bottom: 0;
-			font-size:12px;
+			font-size:22px;
 			position: relative;
 			top: 0px;
 		}
 
 		.link-noticia{
 			text-align: center;
+			font-size:18px;
+			position: relative;
+			left:25%;
+		}
+
+		.link-noticia, a{
+
 		}
 
 		.aba-card{
@@ -703,8 +746,9 @@
 		.texto-rotativo{
 			white-space: nowrap;
 			padding-left: 0;
-			line-height:30px;
+			line-height:20px;
 			color: white;
+			font-size:30px;
 
 		}
 

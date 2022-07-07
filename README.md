@@ -1,1 +1,1 @@
-https://andressa-anthero7.github.io/GLOBAL-TV/
+https://andressa-anthero7.github.io/noticias-cidade/
