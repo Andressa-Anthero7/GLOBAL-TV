@@ -137,7 +137,7 @@ img{
 
 		#navegacao{
 			position: fixed;
-			width: 375px;
+			min-width: 375px;
 			z-index:3;
 			background: white;
 			border-radius:10px;
@@ -154,18 +154,18 @@ img{
 			position: relative;
 			left:1%;
 			top:150px;
-			width: 375px;
+			min-width: 375px;
 			height:315px;
 		
 		}
 
 		#video{
-			width: 360px;
+			min-width: 360px;
 			min-height: 315px;
 		}
 
 		#carousel{
-			width:360px;
+			min-width:360px;
 			position: relative;
 			top: -1px;
 			left:5px;
@@ -179,7 +179,7 @@ img{
 		#ultimas-noticias{
 			position: relative;
 			top:200px;
-			width: 365px;
+			min-width: 365px;
 			left:1%;
 		}
 
@@ -391,7 +391,7 @@ img{
 
 		#navegacao{
 			position: fixed;
-			width: 375px;
+			min-width: 375px;
 			z-index:3;
 			background: white;
 			border-radius:10px;
@@ -408,18 +408,18 @@ img{
 			position: relative;
 			left:1%;
 			top:100px;
-			width: 375px;
+			min-width: 375px;
 			height:315px;
 		
 		}
 
 		#video{
-			width: 360px;
+			min-width: 360px;
 			min-height: 315px;
 		}
 
 		#carousel{
-			width:360px;
+			min-width:360px;
 			position: relative;
 			top: -1px;
 			left:5px;
@@ -433,7 +433,7 @@ img{
 		#ultimas-noticias{
 			position: relative;
 			top:150px;
-			width: 365px;
+			min-width: 365px;
 			left:1%;
 		}
 
@@ -642,7 +642,7 @@ img{
 
 		#navegacao{
 			position: fixed;
-			width: 420px;
+			min-width: 420px;
 			z-index:3;
 			background: white;
 			border-radius:10px;
@@ -659,18 +659,18 @@ img{
 			position: relative;
 			left:1%;
 			top:180px;
-			width: 375px;
+			min-width: 375px;
 			height:315px;
 		
 		}
 
 		#video{
-			width:410px;
+			min-width:410px;
 			min-height: 315px;
 		}
 
 		#carousel{
-			width:410px;
+			min-width:410px;
 			position: relative;
 			top: -1px;
 			left:5px;
@@ -684,7 +684,7 @@ img{
 		#ultimas-noticias{
 			position: relative;
 			top:150px;
-			width: 410px;
+			min-width: 410px;
 			left:1%;
 		}
 
