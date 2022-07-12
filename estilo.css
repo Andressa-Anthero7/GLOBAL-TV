@@ -2562,7 +2562,6 @@ iframe{
          	max-width:780px;
          	max-height:400px;
          	z-index:-0;
-         	border: 1px solid red;
          	border-radius:10px;
          	background: white;
 
@@ -2581,7 +2580,6 @@ iframe{
          	max-width:900px;
          	font-size:30px;
          	padding:10px;
-         	border:1px solid red;
 
 
 
@@ -2801,7 +2799,6 @@ iframe{
 			top:0;
 			max-width:350px;
 			padding:20px 0px 20px 10px;
-			border: 1px solid red;
 		}
 
 		.sinopse-1{
@@ -2810,7 +2807,6 @@ iframe{
 			top: -140px;
 			left:200px;
 			max-width:500px;
-			border: 1px solid black;
 			padding-bottom:40px;
 		}
 
