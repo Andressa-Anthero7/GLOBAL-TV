@@ -17,6 +17,812 @@
 			body{
 			font-family: "Trebuchet MS", Helvetica, sans-serif;
 			background:#fffafa;
+			max-width: 300px;
+
+			
+		}
+
+		#logo{
+			position:absolute;
+			left:150px;
+			top:5px;
+			width:16%;
+		}
+
+		#escolha-cidades{
+			position: absolute;
+			left:80px;
+			top: 15px;
+			
+		}
+
+
+
+
+		.fa-map-marker{
+			font-size:30px;
+			color: #f0ad4e;
+			position: absolute;
+			left: 0;
+
+		}
+
+		#text-btn-escolha-cidade{
+			display: none;
+		}
+
+		#ao-vivo{
+			position: absolute;
+			left:10px;
+			top:15px;
+
+		}
+
+		#banner-aovivo{
+			max-width:320px;
+		}
+
+		#img-banner-aovivo{
+			max-width:400px;
+			position: relative;
+			top: 100px;
+		}
+
+		.fa-youtube-play{
+
+			font-size:40px;
+			color: #f0ad4e;
+		}
+
+
+
+
+
+
+
+		#dropdownMenuLink{
+			font-size: 13px;
+			height:50px;
+			text-align: center;
+			line-height:40px;
+			font-weight: 900;
+			padding:5px;
+			max-width:120px;
+
+		}
+
+		.dropdown-item{
+			border-bottom: 1px solid gray;
+			padding: 20px;
+			text-align: center;
+			width: 100%;
+		}
+
+		.dropdown-menu{
+			position: relative;
+			top: 120px;
+		}
+
+		
+
+		#menu-hamburguer{
+			position: absolute;
+			left: 75%;
+			top:15px;
+			padding: 0;
+			height: 40px;
+
+		}
+
+		
+
+		
+		#label-news{
+			-webkit-animation: label-news 3s linear infinite;
+               -moz-animation: label-news 3s linear infinite;
+               -ms-animation: label-news 3s linear infinite;
+               -o-animation: label-news 3s linear infinite;
+               animation: label-news 3s linear infinite;
+
+               position: relative;
+               top:-5px;
+               left:;
+
+               font-size: 30px;
+               padding:0px;
+               border-top-left-radius:10px;
+               border-top-right-radius:10px;
+               border:1px solid red;
+
+		}
+
+		   @keyframes  label-news {
+             97%{ opacity: 1; }
+             100% { opacity: 0; }
+         }
+
+
+
+         
+
+
+
+		#carroussel-noticias{
+			background: white;
+			top:70px;
+			left: 0;
+			border: 1px solid black;
+			height: 35px;
+			position: fixed;
+			width: 410px;
+			z-index:2;
+			background: black;
+		}
+
+
+		.carousel-item-rotativo{
+			transition: transform 30s linear;
+			
+		}
+
+		#carousel-news{
+			position: relative;
+			top:-45px;
+			left:30px;
+			width:10000px;
+
+		}
+
+		#carousel-inner{
+			position: relative;
+			left:50px;
+			width:3000px;
+			
+		}
+
+		#navegacao{
+			position: fixed;
+			min-width: 410px;
+			z-index:3;
+			height:70px;
+
+		}
+
+
+		.navbar-nav{
+			position: relative;
+			top:80px;
+			height:300px;
+			background: white;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+
+
+
+		#banner-anunciante-master{
+         	position: relative;
+         	top: 100px;
+         	left:0;
+
+         	
+
+         }
+
+         #img-banner-anunciante-master{
+         	min-width: 410px;
+         	min-height:150px;
+
+         	
+         }
+
+
+         #materia-principal{
+         	position: relative;
+         	left: 10px;
+         	top: 100px;
+
+         }
+
+         #header-noticia-principal{
+         	position: relative;
+         	left: -2%;
+
+         }
+
+         #titulo-materia-principal{
+         	min-width:350px;
+         	font-size:30px;
+
+         }
+
+         #img-noticia-principal{
+         	min-width:340px;
+         	position: relative;
+         	left:-2%;
+         }
+
+         #lista-noticias-principal{
+         	position: relative;
+         	left: 10px;
+         	top:0;
+         	max-width:350px;
+         	font-size:15px;
+         	white-space: nowrap;
+         	margin-left:0;
+         	padding-left:0;
+         	
+         	
+         }
+
+         #lista-noticias-principal, li{
+         	height:40px;
+         }
+
+
+
+
+
+		#display-video{
+			position: relative;
+			left:1%;
+			top:280px;
+			min-width: 340px;
+			height:315px;
+		
+		}
+
+		#video{
+			min-width: 340px;
+			min-height: 315px;
+		}
+
+		#carousel{
+			min-width:340px;
+			position: relative;
+			top: -1px;
+			left:5px;
+		}
+
+		#destaque-carroussel{
+			position: relative;
+			top:350px;
+		}
+
+		#ultimas-noticias{
+			position: relative;
+			top:380px;
+			min-width: 340px;
+			left:1%;
+
+		}
+
+		#card-ultimas-noticias{
+			padding-bottom: 30px;
+		}
+		
+
+
+		#politica{
+			position: relative;
+			top:400px;
+			min-width: 340px;
+		}
+
+		
+
+		#enterterimento{
+			position: relative;
+			top:400px;
+			min-width: 340px;
+		}
+		
+
+		#esportes{
+			position: relative;
+			top:450px;
+			min-width: 340px;
+		}
+
+
+
+		
+
+		.header-padrao{
+			white-space: nowrap;
+			padding:10px;
+			text-align: center;
+
+		}
+
+		#header-noticia-padrao{
+			margin-left:10px;
+			background: red;
+		}
+
+
+		.sinopse{
+			padding-left:20px;
+			padding-right:20px;
+			padding-bottom: 0;
+			font-size:16px;
+			position: relative;
+			top: 0px;
+		}
+
+		.link-noticia{
+			text-align: center;
+		}
+
+		.aba-card{
+			height: 35px;
+			border-radius:10px 10px 0 0;
+			paddin: 0;
+			max-width:85%;
+			position: relative;
+			top:10px;
+			text-align: center;
+			padding: 5px;
+		
+		}
+
+		.aba-card-invertida-1{
+			height: 35px;
+			border-radius:0 0 10px 10px ;
+			paddin: 0;
+			max-width:290px;
+			position: relative;
+			top:0;
+			left:15px;
+			text-align: center;
+			padding: 5px;
+		
+		}
+
+		.texto-rotativo{
+			white-space: nowrap;
+			padding-left: 0;
+			line-height:40px;
+			color: white;
+			font-size:26px;
+			width:1300px;
+
+		}
+
+}
+
+/*******************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CELULAR TAMANHO M */
+
+@media (min-width:321px) and (max-width: 375.99px) {
+		body{
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			background:#fffafa;
+			max-width: 300px;
+
+			
+		}
+
+		#logo{
+			position:absolute;
+			left:150px;
+			top:5px;
+			width:16%;
+		}
+
+		#escolha-cidades{
+			position: absolute;
+			left:80px;
+			top: 15px;
+			
+		}
+
+
+
+
+		.fa-map-marker{
+			font-size:30px;
+			color: #f0ad4e;
+			position: absolute;
+			left: 0;
+
+		}
+
+		#text-btn-escolha-cidade{
+			display: none;
+		}
+
+		#ao-vivo{
+			position: absolute;
+			left:10px;
+			top:15px;
+
+		}
+
+		#banner-aovivo{
+			max-width:320px;
+		}
+
+		#img-banner-aovivo{
+			max-width:400px;
+			position: relative;
+			top: 100px;
+		}
+
+		.fa-youtube-play{
+
+			font-size:40px;
+			color: #f0ad4e;
+		}
+
+
+
+
+
+
+
+		#dropdownMenuLink{
+			font-size: 13px;
+			height:50px;
+			text-align: center;
+			line-height:40px;
+			font-weight: 900;
+			padding:5px;
+			max-width:120px;
+
+		}
+
+		.dropdown-item{
+			border-bottom: 1px solid gray;
+			padding: 20px;
+			text-align: center;
+			width: 100%;
+		}
+
+		.dropdown-menu{
+			position: relative;
+			top: 120px;
+		}
+
+		
+
+		#menu-hamburguer{
+			position: absolute;
+			left: 75%;
+			top:15px;
+			padding: 0;
+			height: 40px;
+
+		}
+
+		
+
+		
+		#label-news{
+			-webkit-animation: label-news 3s linear infinite;
+               -moz-animation: label-news 3s linear infinite;
+               -ms-animation: label-news 3s linear infinite;
+               -o-animation: label-news 3s linear infinite;
+               animation: label-news 3s linear infinite;
+
+               position: relative;
+               top:-5px;
+               left:;
+
+               font-size: 30px;
+               padding:0px;
+               border-top-left-radius:10px;
+               border-top-right-radius:10px;
+               border:1px solid red;
+
+		}
+
+		   @keyframes  label-news {
+             97%{ opacity: 1; }
+             100% { opacity: 0; }
+         }
+
+
+
+         
+
+
+
+		#carroussel-noticias{
+			background: white;
+			top:70px;
+			left: 0;
+			border: 1px solid black;
+			height: 35px;
+			position: fixed;
+			width: 410px;
+			z-index:2;
+			background: black;
+		}
+
+
+		.carousel-item-rotativo{
+			transition: transform 30s linear;
+			
+		}
+
+		#carousel-news{
+			position: relative;
+			top:-45px;
+			left:30px;
+			width:10000px;
+
+		}
+
+		#carousel-inner{
+			position: relative;
+			left:50px;
+			width:3000px;
+			
+		}
+
+		#navegacao{
+			position: fixed;
+			min-width: 410px;
+			z-index:3;
+			height:70px;
+
+		}
+
+
+		.navbar-nav{
+			position: relative;
+			top:80px;
+			height:300px;
+			background: white;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+
+
+
+		#banner-anunciante-master{
+         	position: relative;
+         	top: 100px;
+         	left:0;
+
+         	
+
+         }
+
+         #img-banner-anunciante-master{
+         	min-width: 410px;
+         	min-height:150px;
+
+         	
+         }
+
+
+         #materia-principal{
+         	position: relative;
+         	left: 10px;
+         	top: 100px;
+
+         }
+
+         #header-noticia-principal{
+         	position: relative;
+         	left: -2%;
+
+         }
+
+         #titulo-materia-principal{
+         	min-width:350px;
+         	font-size:30px;
+
+         }
+
+         #img-noticia-principal{
+         	min-width:340px;
+         	position: relative;
+         	left:-2%;
+         }
+
+         #lista-noticias-principal{
+         	position: relative;
+         	left: 10px;
+         	top:0;
+         	max-width:350px;
+         	font-size:15px;
+         	white-space: nowrap;
+         	margin-left:0;
+         	padding-left:0;
+         	
+         	
+         }
+
+         #lista-noticias-principal, li{
+         	height:40px;
+         }
+
+
+
+
+
+		#display-video{
+			position: relative;
+			left:1%;
+			top:280px;
+			min-width: 340px;
+			height:315px;
+		
+		}
+
+		#video{
+			min-width: 340px;
+			min-height: 315px;
+		}
+
+		#carousel{
+			min-width:340px;
+			position: relative;
+			top: -1px;
+			left:5px;
+		}
+
+		#destaque-carroussel{
+			position: relative;
+			top:350px;
+		}
+
+		#ultimas-noticias{
+			position: relative;
+			top:380px;
+			min-width: 340px;
+			left:1%;
+
+		}
+
+		#card-ultimas-noticias{
+			padding-bottom: 30px;
+		}
+		
+
+
+		#politica{
+			position: relative;
+			top:400px;
+			min-width: 340px;
+		}
+
+		
+
+		#enterterimento{
+			position: relative;
+			top:400px;
+			min-width: 340px;
+		}
+		
+
+		#esportes{
+			position: relative;
+			top:450px;
+			min-width: 340px;
+		}
+
+
+
+		
+
+		.header-padrao{
+			white-space: nowrap;
+			padding:10px;
+			text-align: center;
+
+		}
+
+		#header-noticia-padrao{
+			margin-left:10px;
+			background: red;
+		}
+
+
+		.sinopse{
+			padding-left:20px;
+			padding-right:20px;
+			padding-bottom: 0;
+			font-size:16px;
+			position: relative;
+			top: 0px;
+		}
+
+		.link-noticia{
+			text-align: center;
+		}
+
+		.aba-card{
+			height: 35px;
+			border-radius:10px 10px 0 0;
+			paddin: 0;
+			max-width:85%;
+			position: relative;
+			top:10px;
+			text-align: center;
+			padding: 5px;
+		
+		}
+
+		.aba-card-invertida-1{
+			height: 35px;
+			border-radius:0 0 10px 10px ;
+			paddin: 0;
+			max-width:290px;
+			position: relative;
+			top:0;
+			left:15px;
+			text-align: center;
+			padding: 5px;
+		
+		}
+
+		.texto-rotativo{
+			white-space: nowrap;
+			padding-left: 0;
+			line-height:40px;
+			color: white;
+			font-size:26px;
+			width:1300px;
+
+		}
+
+
+}
+
+/********************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Celulares Tamanho G */
+
+@media (min-width:376px) and (max-width: 425.99px) {
+
+		body{
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+			background:#fffafa;
+			max-width: 320px;
 
 			
 		}
@@ -87,6 +893,7 @@
 			font-weight: 900;
 			padding:5px;
 			max-width:120px;
+
 		}
 
 		.dropdown-item{
@@ -98,7 +905,7 @@
 
 		.dropdown-menu{
 			position: relative;
-			top: 70px;
+			top: 120px;
 		}
 
 		
@@ -180,7 +987,7 @@
 
 		#navegacao{
 			position: fixed;
-			min-width: 350px;
+			min-width: 370px;
 			z-index:3;
 			height:70px;
 
@@ -208,7 +1015,7 @@
          }
 
          #img-banner-anunciante-master{
-         	min-width: 350px;
+         	min-width: 370px;
          	min-height:150px;
 
          	
@@ -242,9 +1049,19 @@
 
          #lista-noticias-principal{
          	position: relative;
-         	left: 30px;
-         	top: 120px;
+         	left: 10px;
+         	top:0;
+         	max-width:350px;
+         	font-size:15px;
+         	white-space: nowrap;
+         	margin-left:0;
+         	padding-left:0;
          	
+         	
+         }
+
+         #lista-noticias-principal, li{
+         	height:40px;
          }
 
 
@@ -254,7 +1071,7 @@
 		#display-video{
 			position: relative;
 			left:1%;
-			top:130px;
+			top:280px;
 			min-width: 340px;
 			height:315px;
 		
@@ -274,20 +1091,26 @@
 
 		#destaque-carroussel{
 			position: relative;
-			top:200px;
+			top:350px;
 		}
 
 		#ultimas-noticias{
 			position: relative;
-			top:250px;
+			top:380px;
 			min-width: 340px;
 			left:1%;
+
 		}
+
+		#card-ultimas-noticias{
+			padding-bottom: 30px;
+		}
+		
 
 
 		#politica{
 			position: relative;
-			top:300px;
+			top:400px;
 			min-width: 340px;
 		}
 
@@ -295,14 +1118,14 @@
 
 		#enterterimento{
 			position: relative;
-			top:320px;
+			top:400px;
 			min-width: 340px;
 		}
 		
 
 		#esportes{
 			position: relative;
-			top:300px;
+			top:450px;
 			min-width: 340px;
 		}
 
@@ -314,10 +1137,12 @@
 			white-space: nowrap;
 			padding:10px;
 			text-align: center;
+
 		}
 
 		#header-noticia-padrao{
 			margin-left:10px;
+			background: red;
 		}
 
 
@@ -346,13 +1171,13 @@
 		
 		}
 
-		.aba-card-invertida{
+		.aba-card-invertida-1{
 			height: 35px;
 			border-radius:0 0 10px 10px ;
 			paddin: 0;
 			max-width:290px;
 			position: relative;
-			top:-10px;
+			top:0;
 			left:15px;
 			text-align: center;
 			padding: 5px;
@@ -368,781 +1193,6 @@
 			width:1300px;
 
 		}
-
-}
-
-/*******************************************************************************************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CELULAR TAMANHO M */
-
-@media (min-width:321px) and (max-width: 375.99px) {
-
-	body{
-			font-family: "Trebuchet MS", Helvetica, sans-serif;
-			background:#fffafa;
-			max-width:340px;
-
-			
-		}
-
-		#logo{
-			position:absolute;
-			left:160px;
-			top:5px;
-			width:16%;
-		}
-
-		#escolha-cidades{
-			position: absolute;
-			left:80px;
-			top: 15px;
-			
-		}
-
-
-
-
-		.fa-map-marker{
-			font-size:30px;
-			color: #f0ad4e;
-			position: absolute;
-			left:5px;
-
-		}
-
-		#text-btn-escolha-cidade{
-			display: none;
-		}
-
-		#ao-vivo{
-			position:absolute;
-			top: 15px;
-			left:10px;
-
-		}
-
-		#banner-aovivo{
-			max-width:320px;
-		}
-
-		#img-banner-aovivo{
-			max-width:400px;
-			position: relative;
-			top: 100px;
-		}
-
-		.fa-youtube-play{
-
-			font-size:40px;
-			color: #f0ad4e;
-		}
-
-
-
-
-
-
-
-		#dropdownMenuLink{
-			font-size: 13px;
-			height:50px;
-			text-align: center;
-			line-height:40px;
-			font-weight: 900;
-			padding:5px;
-			max-width:120px;
-		}
-
-		.dropdown-item{
-			border-bottom: 1px solid gray;
-			padding: 20px;
-			text-align: center;
-			width: 100%;
-		}
-
-		.dropdown-menu{
-			position: relative;
-			top: 70px;
-		}
-
-		
-
-		#menu-hamburguer{
-			position: absolute;
-			left: 75%;
-			top:15px;
-			padding: 0;
-			height: 40px;
-
-		}
-
-		
-
-		
-		#label-news{
-			-webkit-animation: label-news 3s linear infinite;
-               -moz-animation: label-news 3s linear infinite;
-               -ms-animation: label-news 3s linear infinite;
-               -o-animation: label-news 3s linear infinite;
-               animation: label-news 3s linear infinite;
-
-               position: relative;
-               top:-5px;
-               left:;
-
-               font-size: 30px;
-               padding:0px;
-               border-top-left-radius:10px;
-               border-top-right-radius:10px;
-               border:1px solid red;
-
-		}
-
-		   @keyframes  label-news {
-             97%{ opacity: 1; }
-             100% { opacity: 0; }
-         }
-
-
-
-         
-
-
-
-		#carroussel-noticias{
-			background: white;
-			top:70px;
-			left: 0;
-			border: 1px solid black;
-			height: 35px;
-			position: fixed;
-			width: 410px;
-			z-index:2;
-			background: black;
-		}
-
-
-		.carousel-item-rotativo{
-			transition: transform 30s linear;
-			
-		}
-
-		#carousel-news{
-			position: relative;
-			top:-45px;
-			left:30px;
-			width:10000px;
-
-		}
-
-		#carousel-inner{
-			position: relative;
-			left:50px;
-			width:3000px;
-			
-		}
-
-		#navegacao{
-			position: fixed;
-			min-width: 400px;
-			z-index:3;
-			height:70px;
-
-		}
-
-
-		.navbar-nav{
-			position: relative;
-			top:80px;
-			height:300px;
-			background: white;
-			border-bottom-right-radius: 10px;
-			border-bottom-left-radius: 10px;
-		}
-
-
-
-		#banner-anunciante-master{
-         	position: relative;
-         	top: 100px;
-         	left:0;
-
-         	
-
-         }
-
-         #img-banner-anunciante-master{
-         	min-width: 400px;
-         	min-height:150px;
-
-         	
-         }
-
-
-         #materia-principal{
-         	position: relative;
-         	left: 10px;
-         	top: 100px;
-
-         }
-
-         #header-noticia-principal{
-         	position: relative;
-         	left: -2%;
-
-         }
-
-         #titulo-materia-principal{
-         	min-width:350px;
-         	font-size:30px;
-
-         }
-
-         #img-noticia-principal{
-         	min-width:380px;
-         	position: relative;
-         	left:-2%;
-         }
-
-         #lista-noticias-principal{
-         	position: relative;
-         	left: 30px;
-         	top: 120px;
-         	
-         }
-
-
-
-
-
-		#display-video{
-			position: relative;
-			left:1%;
-			top:130px;
-			min-width: 340px;
-			height:315px;
-		
-		}
-
-		#video{
-			min-width: 370px;
-			min-height: 315px;
-		}
-
-		#carousel{
-			min-width:360px;
-			position: relative;
-			top: -1px;
-			left:5px;
-		}
-
-		#destaque-carroussel{
-			position: relative;
-			top:200px;
-		}
-
-		#ultimas-noticias{
-			position: relative;
-			top:250px;
-			min-width: 370px;
-			left:1%;
-		}
-
-
-		#politica{
-			position: relative;
-			top:300px;
-			min-width: 370px;
-		}
-
-		
-
-		#enterterimento{
-			position: relative;
-			top:320px;
-			min-width: 370px;
-		}
-		
-
-		#esportes{
-			position: relative;
-			top:300px;
-			min-width: 370px;
-		}
-
-
-
-		
-
-		.header-padrao{
-			white-space: nowrap;
-			padding:10px;
-			text-align: center;
-		}
-
-		#header-noticia-padrao{
-			margin-left:10px;
-		}
-
-
-		.sinopse{
-			padding-left:20px;
-			padding-right:20px;
-			padding-bottom: 0;
-			font-size:16px;
-			position: relative;
-			top: 0px;
-		}
-
-		.link-noticia{
-			text-align: center;
-		}
-
-		.aba-card{
-			height: 35px;
-			border-radius:10px 10px 0 0;
-			paddin: 0;
-			max-width:85%;
-			position: relative;
-			top:10px;
-			text-align: center;
-			padding: 5px;
-		
-		}
-
-		.aba-card-invertida{
-			height: 35px;
-			border-radius:0 0 10px 10px ;
-			paddin: 0;
-			max-width:290px;
-			position: relative;
-			top:-10px;
-			left:15px;
-			text-align: center;
-			padding: 5px;
-		
-		}
-
-		.texto-rotativo{
-			white-space: nowrap;
-			padding-left: 0;
-			line-height:40px;
-			color: white;
-			font-size:26px;
-			width:1300px;
-
-		}
-
-
-
-
-}
-
-/********************************************************************************************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Celulares Tamanho G */
-
-@media (min-width:376px) and (max-width: 425.99px) {
-
-	body{
-			font-family: "Trebuchet MS", Helvetica, sans-serif;
-			background:#fffafa;
-			max-width:380px;
-
-			
-		}
-
-		#logo{
-			position:absolute;
-			left:180px;
-			top:5px;
-			width:16%;
-		}
-
-		#escolha-cidades{
-			position: absolute;
-			left:80px;
-			top: 15px;
-			
-		}
-
-
-
-
-		.fa-map-marker{
-			font-size:30px;
-			color: #f0ad4e;
-
-		}
-
-		#text-btn-escolha-cidade{
-			display: none;
-		}
-
-		#ao-vivo{
-			position: relative;
-			left:0;
-
-		}
-
-		#banner-aovivo{
-			max-width:320px;
-		}
-
-		#img-banner-aovivo{
-			max-width:360px;
-			position: relative;
-			top: 100px;
-		}
-
-		.fa-youtube-play{
-
-			font-size:40px;
-			color: #f0ad4e;
-		}
-
-
-
-
-
-
-
-		#dropdownMenuLink{
-			font-size: 13px;
-			height:50px;
-			text-align: center;
-			line-height:40px;
-			font-weight: 900;
-			padding:5px;
-			max-width:120px;
-		}
-
-		.dropdown-item{
-			border-bottom: 1px solid gray;
-			padding: 20px;
-			text-align: center;
-			width: 100%;
-		}
-
-		.dropdown-menu{
-			position: relative;
-			top: 70px;
-		}
-
-		
-
-		#menu-hamburguer{
-			position: absolute;
-			left: 75%;
-			top:15px;
-			padding: 0;
-			height: 40px;
-
-		}
-
-		
-
-		
-		#label-news{
-			-webkit-animation: label-news 3s linear infinite;
-               -moz-animation: label-news 3s linear infinite;
-               -ms-animation: label-news 3s linear infinite;
-               -o-animation: label-news 3s linear infinite;
-               animation: label-news 3s linear infinite;
-
-               position: relative;
-               top:-5px;
-               left:;
-
-               font-size: 30px;
-               padding:0px;
-               border-top-left-radius:10px;
-               border-top-right-radius:10px;
-               border:1px solid red;
-
-		}
-
-		   @keyframes  label-news {
-             97%{ opacity: 1; }
-             100% { opacity: 0; }
-         }
-
-
-
-         
-
-
-
-		#carroussel-noticias{
-			background: white;
-			top:70px;
-			left: 0;
-			border: 1px solid black;
-			height: 35px;
-			position: fixed;
-			width: 410px;
-			z-index:2;
-			background: black;
-		}
-
-
-		.carousel-item-rotativo{
-			transition: transform 30s linear;
-			
-		}
-
-		#carousel-news{
-			position: relative;
-			top:-45px;
-			left:30px;
-			width:10000px;
-
-		}
-
-		#carousel-inner{
-			position: relative;
-			left:50px;
-			width:3000px;
-			
-		}
-
-		#navegacao{
-			position: fixed;
-			min-width: 420px;
-			z-index:3;
-			height:70px;
-
-		}
-
-
-		.navbar-nav{
-			position: relative;
-			top:80px;
-			height:300px;
-			background: white;
-			border-bottom-right-radius: 10px;
-			border-bottom-left-radius: 10px;
-		}
-
-
-
-		#banner-anunciante-master{
-         	position: relative;
-         	top: 100px;
-         	left:0;
-
-         	
-
-         }
-
-         #img-banner-anunciante-master{
-         	min-width: 350px;
-         	min-height:150px;
-
-         	
-         }
-
-
-         #materia-principal{
-         	position: relative;
-         	left: 10px;
-         	top: 100px;
-
-         }
-
-         #header-noticia-principal{
-         	position: relative;
-         	left: -2%;
-
-         }
-
-         #titulo-materia-principal{
-         	min-width:350px;
-         	font-size:30px;
-
-         }
-
-         #img-noticia-principal{
-         	min-width:340px;
-         	position: relative;
-         	left:-2%;
-         }
-
-         #sinopse-materia-principal{
-         	font-size:20px;
-         }
-
-         #lista-noticias-principal{
-         	position: relative;
-         	left: 30px;
-         	top: 120px;
-         	font-size:20px;
-         	
-         }
-
-
-
-
-
-		#display-video{
-			position: relative;
-			left:1%;
-			top:130px;
-			min-width: 340px;
-			height:315px;
-		
-		}
-
-		#video{
-			min-width: 410px;
-			min-height: 315px;
-		}
-
-		#carousel{
-			min-width:400px;
-			position: relative;
-			top: -1px;
-			left:5px;
-		}
-
-		#destaque-carroussel{
-			position: relative;
-			top:200px;
-		}
-
-		#ultimas-noticias{
-			position: relative;
-			top:250px;
-			min-width: 410px;
-			left:0%;
-		}
-
-
-		#politica{
-			position: relative;
-			top:300px;
-			min-width: 410px;
-		}
-
-		
-
-		#enterterimento{
-			position: relative;
-			top:320px;
-			min-width: 410px;
-		}
-		
-
-		#esportes{
-			position: relative;
-			top:300px;
-			min-width: 410px;
-		}
-
-
-
-		
-
-		.header-padrao{
-			white-space: nowrap;
-			padding:10px;
-			text-align: center;
-		}
-
-		#header-noticia-padrao{
-			margin-left:10px;
-		}
-
-
-		.sinopse{
-			padding-left:20px;
-			padding-right:20px;
-			padding-bottom: 0;
-			font-size:16px;
-			position: relative;
-			top: 0px;
-		}
-
-		.link-noticia{
-			text-align: center;
-		}
-
-		.aba-card{
-			height: 45px;
-			border-radius:10px 10px 0 0;
-			paddin: 0;
-			max-width:85%;
-			position: relative;
-			top:10px;
-			text-align: center;
-			padding: 5px;
-			font-size: 30px;
-		
-		}
-
-		.aba-card-invertida{
-			height: 45px;
-			border-radius:0 0 10px 10px ;
-			paddin: 0;
-			max-width:290px;
-			position: relative;
-			top:-10px;
-			left:15px;
-			text-align: center;
-			padding: 5px;
-			font-size: 30px;
-		
-		}
-
-		.texto-rotativo{
-			white-space: nowrap;
-			padding-left: 0;
-			line-height:40px;
-			color: white;
-			font-size:26px;
-			width:1300px;
-
-		}
-
 
 
 
@@ -1248,7 +1298,7 @@
 
 		.dropdown-menu{
 			position: relative;
-			top: 70px;
+			top: 120px;
 		}
 
 		
@@ -1575,7 +1625,6 @@
 		top:35px;
 		min-width: 150px;
 		height: 50px;
-		border: 1px solid red;
 		z-index: 3;
 	}
 
@@ -1916,7 +1965,6 @@
 		top:15px;
 		min-width: 150px;
 		height: 50px;
-		border: 1px solid red;
 		z-index: 3;
 	}
 
