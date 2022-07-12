@@ -637,11 +637,12 @@ iframe{
          	position: relative;
          	left: -2%;
 
+
          }
 
          #titulo-materia-principal{
          	min-width:350px;
-         	font-size:30px;
+         	font-size:34px;
 
          }
 
@@ -656,7 +657,6 @@ iframe{
          	left: 10px;
          	top:0;
          	max-width:350px;
-         	font-size:15px;
          	white-space: nowrap;
          	margin-left:0;
          	padding-left:0;
@@ -666,6 +666,9 @@ iframe{
 
          #lista-noticias-principal, li{
          	height:40px;
+         	font-size:13px;
+         	min-width:350px;
+
          }
 
 
@@ -682,12 +685,12 @@ iframe{
 		}
 
 		#video{
-			min-width: 340px;
+			min-width: 410px;
 			min-height: 315px;
 		}
 
 		#carousel{
-			min-width:340px;
+			min-width:410px;
 			position: relative;
 			top: -1px;
 			left:5px;
@@ -695,13 +698,13 @@ iframe{
 
 		#destaque-carroussel{
 			position: relative;
-			top:350px;
+			top:410px;
 		}
 
 		#ultimas-noticias{
 			position: relative;
 			top:380px;
-			min-width: 340px;
+			min-width: 410px;
 			left:1%;
 
 		}
@@ -715,7 +718,7 @@ iframe{
 		#politica{
 			position: relative;
 			top:400px;
-			min-width: 340px;
+			min-width: 410px;
 		}
 
 		
@@ -723,14 +726,14 @@ iframe{
 		#enterterimento{
 			position: relative;
 			top:400px;
-			min-width: 340px;
+			min-width: 410px;
 		}
 		
 
 		#esportes{
 			position: relative;
 			top:450px;
-			min-width: 340px;
+			min-width: 410px;
 		}
 
 
@@ -757,6 +760,10 @@ iframe{
 			font-size:16px;
 			position: relative;
 			top: 0px;
+		}
+
+		#sinopse-materia-principal{
+			min-width: 350px;
 		}
 
 		.link-noticia{
@@ -1041,7 +1048,7 @@ iframe{
          }
 
          #titulo-materia-principal{
-         	min-width:350px;
+         	min-width:450px;
          	font-size:30px;
 
          }
@@ -1067,6 +1074,9 @@ iframe{
 
          #lista-noticias-principal, li{
          	height:40px;
+         	font-size:13px;
+         	min-width:350px;
+
          }
 
 
@@ -1083,12 +1093,12 @@ iframe{
 		}
 
 		#video{
-			min-width: 340px;
+			min-width: 400px;
 			min-height: 315px;
 		}
 
 		#carousel{
-			min-width:340px;
+			min-width:400px;
 			position: relative;
 			top: -1px;
 			left:5px;
@@ -1102,7 +1112,7 @@ iframe{
 		#ultimas-noticias{
 			position: relative;
 			top:380px;
-			min-width: 340px;
+			min-width: 400px;
 			left:1%;
 
 		}
@@ -1116,7 +1126,7 @@ iframe{
 		#politica{
 			position: relative;
 			top:400px;
-			min-width: 340px;
+			min-width: 400px;
 		}
 
 		
@@ -1124,14 +1134,14 @@ iframe{
 		#enterterimento{
 			position: relative;
 			top:400px;
-			min-width: 340px;
+			min-width: 400px;
 		}
 		
 
 		#esportes{
 			position: relative;
 			top:450px;
-			min-width: 340px;
+			min-width: 400px;
 		}
 
 
@@ -1158,6 +1168,12 @@ iframe{
 			font-size:16px;
 			position: relative;
 			top: 0px;
+		}
+
+		#sinopse-materia-principal{
+			min-width: 400px;
+			padding:10px;
+			margin-top:-10px;
 		}
 
 		.link-noticia{
