@@ -925,7 +925,7 @@ iframe{
 
 		#menu-hamburguer{
 			position: absolute;
-			left: 300px;
+			left: 290px;
 			top:15px;
 			padding: 0;
 			height: 40px;
@@ -1049,8 +1049,8 @@ iframe{
          }
 
          #titulo-materia-principal{
-         	min-width:450px;
-         	font-size:40px;
+         	min-width:420px;
+         	font-size:36px;
          	padding:10px;
 
          }
@@ -1089,18 +1089,18 @@ iframe{
 			position: relative;
 			left:1%;
 			top:280px;
-			min-width: 340px;
+			min-width: 380px;
 			height:315px;
 		
 		}
 
 		#video{
-			min-width: 450px;
+			min-width: 380px;
 			min-height: 315px;
 		}
 
 		#carousel{
-			min-width:450px;
+			min-width: 380px;
 			position: relative;
 			top: -1px;
 			left:5px;
@@ -1108,13 +1108,13 @@ iframe{
 
 		#destaque-carroussel{
 			position: relative;
-			top:350px;
+			top:450px;
 		}
 
 		#ultimas-noticias{
 			position: relative;
 			top:380px;
-			min-width: 450px;
+			min-width: 380px;
 			left:1%;
 
 		}
@@ -1128,7 +1128,7 @@ iframe{
 		#politica{
 			position: relative;
 			top:400px;
-			min-width: 450px;
+			min-width: 380px;
 		}
 
 		
@@ -1136,14 +1136,14 @@ iframe{
 		#enterterimento{
 			position: relative;
 			top:400px;
-			min-width: 450px;
+			min-width: 380px;
 		}
 		
 
 		#esportes{
 			position: relative;
 			top:450px;
-			min-width: 450px;
+			min-width: 380px;
 		}
 
 
@@ -1173,7 +1173,7 @@ iframe{
 		}
 
 		#sinopse-materia-principal{
-			min-width: 450px;
+			min-width: 380px;
 			padding:10px;
 			margin-top:-10px;
 		}
